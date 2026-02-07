@@ -396,81 +396,89 @@ CHANGELOG
         .qr {
             width: 180px;
             margin: 18px auto;
-        } 
+        }
+
         /* =====================
    📱 MOBILE RESPONSIVENESS
 ===================== */
 
-/* Allow app to adapt to phone height */
-.app {
-    height: min(90vh, 760px);
-    aspect-ratio: auto;
-    max-height: 100vh;
-}
+        /* Allow app to adapt to phone height */
+        .app {
+            height: min(90vh, 760px);
+            aspect-ratio: auto;
+            max-height: 100vh;
+        }
 
-/* Make scenes scrollable if content overflows */
-.scene {
-    overflow-y: auto;
-    -webkit-overflow-scrolling: touch;
-}
+        /* Make scenes scrollable if content overflows */
+        .scene {
+            overflow-y: auto;
+            -webkit-overflow-scrolling: touch;
+        }
 
-/* Responsive text scaling */
-h1 {
-    font-size: clamp(20px, 5vw, 26px);
-}
+        /* Responsive text scaling */
+        h1 {
+            font-size: clamp(20px, 5vw, 26px);
+        }
 
-h2 {
-    font-size: clamp(18px, 4.5vw, 22px);
-}
+        h2 {
+            font-size: clamp(18px, 4.5vw, 22px);
+        }
 
-p {
-    font-size: clamp(14px, 4vw, 16px);
-}
+        p {
+            font-size: clamp(14px, 4vw, 16px);
+        }
 
-/* Buttons more touch-friendly */
-.btn {
-    padding: 14px 18px;
-    font-size: 15px;
-}
+        /* Buttons more touch-friendly */
+        .btn {
+            padding: 14px 18px;
+            font-size: 15px;
+        }
 
-/* Images scale better on small screens */
-.bunny-wrap img {
-    width: clamp(70px, 20vw, 90px);
-}
+        /* Images scale better on small screens */
+        .bunny-wrap img {
+            width: clamp(70px, 20vw, 90px);
+        }
 
-.bouquet-gif {
-    width: clamp(120px, 60vw, 150px);
-}
+        .bouquet-gif {
+            width: clamp(120px, 60vw, 150px);
+        }
 
-/* Letter page adjustments */
-.paper {
-    font-size: clamp(14px, 4vw, 16px);
-    line-height: 1.5;
-}
+        /* Letter page adjustments */
+        .paper {
+            font-size: clamp(14px, 4vw, 16px);
+            line-height: 1.5;
+        }
 
-/* QR responsiveness */
-.qr {
-    width: min(60vw, 180px);
-}
+        /* QR responsiveness */
+        .qr {
+            width: min(60vw, 180px);
+        }
 
-.qr img {
-    width: 100%;
-    height: auto;
-}
+        .qr img {
+            width: 100%;
+            height: auto;
+        }
 
-/* Extra safety for very small phones */
-@media (max-height: 640px) {
-    .scene-content {
-        padding: 18px;
-    }
+        /* Extra safety for very small phones */
+        @media (max-height: 640px) {
+            .scene-content {
+                padding: 18px;
+            }
 
-    .buttons {
-        gap: 10px;
-    }
-}
+            .buttons {
+                gap: 10px;
+            }
+        }
 
+        @media (max-width: 480px) {
+            .message-card {
+                font-size: 14px;
+                padding: 16px 14px;
+                line-height: 1.7;
+            }
+        }
     </style>
-    
+
 </head>
 
 <body>
@@ -547,18 +555,27 @@ p {
                     <div class="xoxo">XOXO</div>
 
                     <div class="paper">
-                        <span class="red">To my dear tanu,</span><br>
-                        you make my life so much better<br>
+                        <span class="red">To my dear Tanu,</span><br>
+                        You make my life so much better,<br>
                         <span class="red">and I’m really lucky to have you</span><br>
                         by my side. I’m grateful for you<br>
                         <span class="red">and for the friendship we share.</span><br>
-                        I can’t wait to keep making memories<br>
-                        <span class="red">and laughing through life together.</span><br>
+                        I can’t wait to make more and more memories.<br>
+                        <span class="red">Here’s to many more laughs</span><br>
+                        and memories we’ll collect along the way.<br>
+                        <br>
                         <span class="red">Just so you know,</span><br>
                         you are honestly one of the<br>
                         <span class="red">most genuine and amazing people</span><br>
-                        I know. Anyways, <span class="red">love you</span> 🤍<br><br>
-                        <span class="red">Always Grateful.</span>
+                        I have ever met.<br>
+                        <br>
+                        This is just a small reminder<br>
+                        that your presence in my life<br>
+                        <span class="red">is truly special and important.</span><br>
+                        Anyways, <span class="red">love you loadss</span> 🤍<br><br>
+                        <span class="red">Always thankful!</span><br>
+                        With love, Riya 💫
+
                     </div>
 
                     <div class="letter-hearts"><span></span><span></span><span></span></div>
